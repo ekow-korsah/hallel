@@ -1,12 +1,9 @@
-/* *{
+*{
   overflow-x: hidden;
-  text-decoration: none;
-} */
-
-
-/* .container {
+  }
+.container {
     max-width: 960px;
-  } */
+  }
 
   
   .navbar-survival101 .navbar-brand img {
@@ -20,7 +17,7 @@
   }
 
  .nav-item:hover{
-    background-color:#40E0D0;
+    background-color: peru;
     color: black;
     padding-top: 100px;
   }
@@ -47,7 +44,7 @@
     background-color: transparent;
     border: 0;
     padding: 4px 8px;
-    color:#40E0D0 ;
+    color: peru;
     font-size: 20px;
     
   }
@@ -56,7 +53,7 @@
     background-color: transparent;
     border: 0;
     padding: 4px 8px;
-    color: #40E0D0 ;
+    color: peru;
     font-size: 30px;
   }
   
@@ -65,7 +62,6 @@
   .search-box .input-group-btn button:focus {
     color: rgba(0,0,0,.4);
   }
-
 
 
   /* Navbar done */
@@ -123,18 +119,12 @@
 .section-1{
   padding: 10vmin 0;
 }
-/* 
-.section-1 .row .col-md-6 .pray img{
-  width:70%;
-  border-radius: 0.2em;
-} */
 
 .section-1 .row .col-md-6:last-child{
   position: relative;
 }
 
 .section-1 .row .col-md-6 .panel{
-  /* position: absolute; */
   margin-top: -10%;
   left: -5vmin;
   background-color: white;
@@ -156,6 +146,7 @@
   font-size: 0.9em;
   color: rgba(0,0 0,0,0.5) 
 }
+
 
 footer{
   background-color:rgba(0,0,0,0.8);
@@ -188,6 +179,7 @@ footer .column i + i{
   padding: 0 0.5em;
 }
 
+
 .image-loc{
   display: flex;
 }
@@ -219,7 +211,7 @@ footer .column i + i{
 
 }
 
-.show{
+.shows{
   width:200px ;
   height: 50px;
   border-radius: 10px;
@@ -235,24 +227,6 @@ footer .column i + i{
 
 }
 
-.parallax{
-  background: url('./mountain-notebook.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  height: 500px;
-  width: 100%;
-  margin-top: 5%;
-}
-
-.parallax .info{
-  text-align: center;
-  padding-top: 250px;
-  font-size: 70px;
-  color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  letter-spacing: 10px;
-  /* margin-left: 120px; */
-}
 
 .story{
 
@@ -278,19 +252,19 @@ footer .column i + i{
 
   
   
-  @media (min-width: 992px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-      padding-right: .7rem;
-      padding-left: .7rem;
-     
-    }
-    
-    .search-box {
-      width: 300px !important;
-    }
-
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .7rem;
+    padding-left: .7rem;
    
   }
+  
+  .search-box {
+    width: 300px !important;
+  }
+
+ 
+}
   
 
   @media only screen and (max-width: 912px){
@@ -317,40 +291,75 @@ footer .column i + i{
     }
 
     .site-banner .words > p{
-        margin-left: 60px;
+        margin-left: 80px;
     }
 
-    .bt{
-        margin-left: 60px;
+    .site-banner .words > h1{
+      margin-left: 15px ;
+    }
+
+     .bt{
+        margin-left: 70px;
+        margin-bottom: 5%;
     }
 
     .virtical-socials > ul > ol > a:link{
         list-style-type: none;
     }
 
+     
     .section-1 .row .col-md-6 .panel{
       position: initial;
       width: initial;
       height: initial;
     }
+
+    .shows{
+      margin-left: -26%;
+    }
+
+    .pray > img{
+      width: 90% !important;
+      height: 50% !important;
+    }
+
+   
     footer .row .col-md-2{
       margin-top: 8vmin;
     }
+   
+    .panel > h1{
+      text-align: center !important; 
+    }
 
-    .show{
-      margin-left: -26%;
+    .panel > p{
+      text-align: center;
     }
-    .pray > img{
-      height: 300px;
-    }
+
 
     .pannel > img{
       text-align: center;
     }
 
+    .two{
+      margin-left: 10% !important;
+    }
+
+    .cards{
+      margin-left: 5% !important;
+    }
+
+    .first > img{
+      width: 300px !important;
+    }
+
+    .image > img{
+      display: none;
+    }
 
 
 
 
-  }
+
+  } 
  
