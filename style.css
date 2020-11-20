@@ -1,12 +1,12 @@
-*{
+/* *{
   overflow-x: hidden;
   text-decoration: none;
-}
+} */
 
 
-.container {
+/* .container {
     max-width: 960px;
-  }
+  } */
 
   
   .navbar-survival101 .navbar-brand img {
@@ -76,6 +76,7 @@
     margin-left:7%;
     margin-top: 2%;
     flex-wrap: wrap;
+    background-color: #fdfdfd;
 }
 
 .site-banner .words > h1{
@@ -94,7 +95,7 @@
 }
 
 .site-banner .image{
-    margin-top: -1%;
+    margin-top: -5%;
     margin-left:7%;
 } 
 
@@ -122,22 +123,23 @@
 .section-1{
   padding: 10vmin 0;
 }
-
+/* 
 .section-1 .row .col-md-6 .pray img{
-  width:100%;
+  width:70%;
   border-radius: 0.2em;
-}
+} */
 
 .section-1 .row .col-md-6:last-child{
   position: relative;
 }
 
 .section-1 .row .col-md-6 .panel{
-  position: absolute;
-  top: 7vmin;
+  /* position: absolute; */
+  margin-top: -10%;
   left: -5vmin;
   background-color: white;
   border: 3px;
+  margin-left: -10%;
   text-align: left;
   padding: 13vmin 5vmin 20vmin 10vmin;
   box-shadow: 0px 25px 42px rgba(0,0 0,0,0.2);
@@ -201,6 +203,74 @@ footer .column i + i{
 
 }
 
+.first{
+  margin-left: 10px;
+}
+
+
+.bts{
+  background-color: peru;
+  height: 50px;
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-left: 5%;
+
+}
+
+.show{
+  width:200px ;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid navy;
+  color: navy;
+  background-color: transparent;
+  margin-left: 5%;
+  margin-top: 2% !important;
+  margin:-50px; 
+  position:relative;
+  top:50%; 
+  left:50%;
+
+}
+
+.parallax{
+  background: url('./mountain-notebook.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.parallax .info{
+  text-align: center;
+  padding-top: 250px;
+  font-size: 70px;
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 10px;
+  /* margin-left: 120px; */
+}
+
+.story{
+
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-item > img{
+    position: absolute;
+    min-height: 300px;
+    width: 10px;
+}
+
 
   
   
@@ -220,6 +290,11 @@ footer .column i + i{
   
 
   @media only screen and (max-width: 912px){
+    *{
+    overflow-x: hidden;
+    text-decoration: none;
+    }
+
     .site-banner{
         margin-left:4%;
     }
@@ -253,10 +328,24 @@ footer .column i + i{
       position: initial;
       width: initial;
       height: initial;
-  }
-      footer .row .col-md-2{
-        margin-top: 8vmin;
-      }
+    }
+    footer .row .col-md-2{
+      margin-top: 8vmin;
+    }
+
+    .show{
+      margin-left: -26%;
+    }
+    .pray > img{
+      height: 300px;
+    }
+
+    .pannel > p{
+      text-align: center !important;
+    }
+
+
+
 
 
   }
