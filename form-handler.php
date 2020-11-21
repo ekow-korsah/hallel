@@ -16,7 +16,7 @@ if (isset($_POST['submit'])){
                 "Selected Item: $message. \n";
 
 
-    $to = 'email receiver email here';
+    $to = 'kookorsah@gmail.com';
     
     $headers = "From: $emailFrom \r\n";
 
