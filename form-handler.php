@@ -20,10 +20,10 @@ if (isset($_POST['submit'])){
     
     $headers = "From: $emailFrom \r\n";
 
-    // $headers .= "Reply To: $email \r\n";
 
     mail($to,$subject,$emailBody,$headers);
 
     header("Location: contact.html?mailsend");
 }
+
 ?>
